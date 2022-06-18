@@ -4,11 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formatações em HTML</title>
+    <title>Outras formatações</title>
     <link rel="shortcut icon" href="favicon_html.ico" type="image/x-icon">
 </head>
 <body>
-   <h1>Formatações adicionais em HTML5</h1> 
-   <!--&gt; &lt;-->>
+   <h1>Outras formatações</h1> 
+   <h2>Código-fonte</h2>
+   <p>O comando <code>document.getElementyByID('teste')</code> é escrito em linguagem JavaScript. Usando a tag "code"</p>
+   <pre>
+       <code>
+    num = int(input("Digite um número: "))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR)
+    else:
+        print(f'O número {num} é IMPAR)
+    print('Fim do programa')
+       </code>
+   </pre>
+   <p>No código acima foi utilizado a tag "pre"</p>
+<hr>
+   <h2>Citações</h2>
+   <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido.</q></p>
+   <p>Foi utilizado a tag "q" para a citação</p>
+   <h2>Citações completas</h2>
+   <p>Segundo Jeff Noble, no seu livro de HTML para leigos:</p>
+   <blockquote cite="https://play.google.com/store/books/details/Jared_Diamond_Armas_germes_e_a%C3%A7o?id=D2Y-DwAAQBAJ">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut facere rem vel ducimus pariatur, quo dolor dignissimos voluptatibus quis deleniti reprehenderit numquam alias molestiae veritatis incidunt nesciunt architecto corrupti natus.
+   </blockquote>
+   <hr>
+   <h2>Abreviações</h2>
+   <p>Estou estudando <abbr title="HyperText MArkuo Language">HTML</abbr> e <abbr title="cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+   <p>Foi usado a tag "abbr"</p>
+   <hr>
+   <h2>Texto invertido</h2>
+   <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+   <p>Foi usado a tag "bdo"</p>
+
 </body>
 </html>
